@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "COSMOS_URL": "https://<cosmos-account>.documents.azure.com:443/",
+    "COSMOS_KEY": "<cosmos-key>",
+    "COSMOS_DB": "billingdb",
+    "COSMOS_INDEX_CONTAINER": "billing_index",
+    "BLOB_CONN_STRING": "DefaultEndpointsProtocol=https;AccountName=...;AccountKey=...;EndpointSuffix=core.windows.net",
+    "BLOB_CONTAINER": "cold"
+  }
+}
